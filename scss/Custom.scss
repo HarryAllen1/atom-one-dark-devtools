@@ -1,10 +1,12 @@
-@import './codicons-dist/codicon.css';
+@use 'syntax.scss';
+@import url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/dist/codicon.css');
 
 @import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css');
 
 :root {
   --atom-bg: #282c34;
   --atom-bg-selected: #2c313c;
+  --atom-bg-stripe: #2b2f37;
   /* its technically vscode's navbar but whatever */
   --atom-navbar-left-bg: rgb(51, 56, 66);
   --atom-sources-bg: #21252b;
@@ -221,6 +223,16 @@ div > div.tabbed-pane-header {
 div.styles-section.read-only {
   background-color: var(--atom-peek-bg) !important;
 }
+
+div.network-log-grid {
+  --network-grid-default-color: var(--atom-bg) !important;
+  --network-grid-stripe-color: var(--atom-bg-stripe) !important;
+}
+
+#network-overview-container {
+  border-bottom-color: var(--atom-dark-outline) !important;
+}
+
 /* sources */
 div.navigator-tabbed-pane,
 .scripts-debug-toolbar {
@@ -382,6 +394,7 @@ devtools-computed-style-property .webkit-css-property {
 .tree-outline li::before {
   background-color: var(--code-white-2) !important;
   -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
   content: normal !important;
 }
 .Dom3d-main-view {
@@ -568,4 +581,8 @@ div.CodeMirror-linenumber {
 }
 input::placeholder {
   color: var(--atom-inactive-tab) !important;
+}
+
+.timeline-landing-page {
+  --neutral-layer-l1: var(--atom-bg) !important;
 }

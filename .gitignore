@@ -1,4 +1,8 @@
+# Output files
 *.zip
+*.crx
+*.pem
+# Reference files
 reference.html
 reference.js
 reference.ts

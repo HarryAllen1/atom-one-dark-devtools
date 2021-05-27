@@ -4,9 +4,10 @@
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
-    "128": "icon128.png"
+    "128": "icon128.png",
+    "400": "icon400.png"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "devtools_page": "devtools.html",
   "manifest_version": 2
 }
