@@ -1,0 +1,12 @@
+{
+  "name": "Atom One Dark DevTools Theme",
+  "description": "A theme for Chrome and Edge DevTools taken from the Atom One Dark theme.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "version": "0.0.1",
+  "devtools_page": "devtools.html",
+  "manifest_version": 2
+}
