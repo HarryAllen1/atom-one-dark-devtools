@@ -1,6 +1,6 @@
-@import "./node_modules/vscode-codicons/dist/codicon.css";
+@import './node_modules/vscode-codicons/dist/codicon.css';
 
-@import url("https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css");
+@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css');
 
 :root {
   --atom-bg: #282c34;
@@ -43,9 +43,9 @@
 /* font */
 .platform-windows,
 :host-context(.platform-windows) {
-  --monospace-font-family: "Fira Code", consolas, lucida console, courier new,
+  --monospace-font-family: 'Fira Code', consolas, lucida console, courier new,
     monospace !important;
-  --source-code-font-family: "Fira Code", consolas, lucida console, courier new,
+  --source-code-font-family: 'Fira Code', consolas, lucida console, courier new,
     monospace !important;
 }
 /* sources file tree filename color */
@@ -235,8 +235,8 @@ div.navigator-tabbed-pane,
 /* sources panel icons */
 .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
   --spritesheet-position: 0 0 !important;
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg") !important;
-  mask-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg");
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg') !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg');
   width: 20px !important;
   height: 18px !important;
   background-image: none !important;
@@ -256,64 +256,64 @@ div.navigator-tabbed-pane,
 }
 
 .navigator-image-tree-item.navigator-file-tree-item
-  [is="ui-icon"].spritesheet-largeicons.icon-mask {
+  [is='ui-icon'].spritesheet-largeicons.icon-mask {
   --spritesheet-position: 0 0 !important;
   -webkit-mask-image: none !important;
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_image.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_image.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
   background-repeat: no-repeat;
 }
 .navigator-script-tree-item.navigator-file-tree-item
-  [is="ui-icon"].spritesheet-largeicons.icon-mask {
+  [is='ui-icon'].spritesheet-largeicons.icon-mask {
   --spritesheet-position: 0 0 !important;
   -webkit-mask-image: none !important;
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
   background-repeat: no-repeat;
 }
 
-span.spritesheet-largeicons.icon-mask[style~="--spritesheet-position:-112px 96px"] {
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg") !important;
+span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px'] {
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
   -webkit-mask-position: 0 0 !important;
-  mask-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg") !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
   background-image: none !important;
 }
-.navigator-font-tree-item.navigator-file-tree-item [is="ui-icon"] {
+.navigator-font-tree-item.navigator-file-tree-item [is='ui-icon'] {
   -webkit-mask-image: none !important;
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_font.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_font.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
   background-repeat: no-repeat !important;
 }
-.navigator-sm-stylesheet-tree-item [is="ui-icon"].icon-mask {
+.navigator-sm-stylesheet-tree-item [is='ui-icon'].icon-mask {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 .navigator-document-tree-item.navigator-file-tree-item
-  [is="ui-icon"].icon-mask[style="--spritesheet-position:-112px 96px; width: 28px; height: 24px;"] {
+  [is='ui-icon'].icon-mask[style='--spritesheet-position:-112px 96px; width: 28px; height: 24px;'] {
   -webkit-mask-image: none !important;
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_html.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_html.svg') !important;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -325,14 +325,14 @@ span.spritesheet-largeicons.icon-mask[style~="--spritesheet-position:-112px 96px
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
   background-color: rgba(0, 0, 0, 0);
 }
-.navigator-stylesheet-tree-item [is="ui-icon"].icon-mask {
+.navigator-stylesheet-tree-item [is='ui-icon'].icon-mask {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 .navigator-stylesheet-tree-item.force-white-icons .icon {
-  background-image: url("https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg") !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
 }
 /* html highlighting */
 .cm-xml-comment,
@@ -381,15 +381,23 @@ devtools-computed-style-property .webkit-css-property {
 
 .tree-outline li::before {
   background-color: var(--code-white-2) !important;
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg") !important;
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
   content: normal !important;
 }
-
-.tree-outline li.parent.expanded::before {
-  -webkit-mask-position: 0 0 !important;
-  -webkit-mask-image: url("https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-down.svg");
+.Dom3d-main-view {
+  background-color: var(--atom-bg) !important;
 }
-
+.widget.vbox.search-view,
+.overview-sidebar-panel,
+[slot='insertion-point-sidebar'] {
+  --color-background-elevation-1: var(--atom-sources-bg) !important;
+  --color-background-elevation-2: var(--atom-sources-bg) !important;
+  --color-background-elevation-3: var(--atom-bg) !important;
+  --color-details-hairline: var(--atom-dark-outline) !important;
+}
+.overview-completed-view .font-family:nth-child(2n + 1) {
+  background-color: #8282820a !important;
+}
 /* not box */
 :root {
   --neutral-foreground-rest: var(--code-white-2) !important;
