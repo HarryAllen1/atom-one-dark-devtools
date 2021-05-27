@@ -2,10 +2,7 @@
 *.zip
 *.crx
 *.pem
-# Reference files
-reference.html
-reference.js
-reference.ts
+
 
 # Logs
 logs
@@ -83,3 +80,6 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# Reference files
+reference/
