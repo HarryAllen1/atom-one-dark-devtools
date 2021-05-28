@@ -1,4 +1,4 @@
-# atom-one-dark-devtools
+# Atom One Dark Devtools
 
 The source SCSS is in the 'scss' folder. The minified css is in the 'extension' folder.
 
@@ -18,7 +18,7 @@ Restart DevTools.
 
 This extension changed the current DevTools theme and syntax highlighting (based off the default dark VSCode theme) to the oen used by the Atom One Dark theme.
 
-Report bugs here: https://github.com/MajesticString/atom-one-dark-devtools
+Report bugs here: [GitHub Issues](https://github.com/MajesticString/atom-one-dark-devtools/issues)
 
 ### From source
 
