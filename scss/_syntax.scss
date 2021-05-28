@@ -1,0 +1,146 @@
+// For the cursor
+:host-context(.-theme-with-dark-background) .CodeMirror-cursor,
+.-theme-with-dark-background .CodeMirror-cursor {
+  border-left-color: var(--atom-blue-outline) !important;
+}
+.CodeMirror-cursor {
+  border-left: 2px solid var(--atom-blue-outline) !important;
+}
+
+// Gutters
+
+.CodeMirror-gutters {
+  background-color: var(--atom-bg) !important;
+}
+
+// SYNTAX
+
+// Css
+
+.cm-css-property,
+.webkit-css-property {
+  color: var(--code-white) !important;
+}
+devtools-computed-style-property {
+  --dom-attribute-name-color: var(--code-white) !important;
+}
+devtools-computed-style-property .webkit-css-property {
+  color: var(--code-white) !important;
+}
+.cm-css-qualifier {
+  color: var(--code-orange) !important;
+}
+span .cm-css-property,
+span.webkit-css-property {
+  color: var(--code-white) !important;
+}
+span.cm-css-atom {
+  color: var(--code-teal) !important;
+}
+span.cm-css-variable-3 {
+  color: var(--code-orange) !important;
+}
+span.cm-css-variable-2 {
+  color: var(--code-red) !important;
+}
+span.cm-css-number {
+  color: var(--code-orange) !important;
+}
+span.cm-css-meta {
+  color: var(--code-teal) !important;
+}
+span.cm-css-variable {
+  color: var(--code-orange) !important;
+}
+span.cm-css-def {
+  color: var(--code-purple) !important;
+}
+span.cm-css-keyword {
+  color: var(--code-purple) !important;
+}
+span.cm-css-comment {
+  color: var(--code-comment) !important;
+}
+span.cm-css-tag {
+  color: var(--code-red) !important;
+}
+span.cm-css-qualifier {
+  color: var(--code-orange) !important;
+}
+span.cm-css-property,
+span.webkit-css-property {
+  color: var(--code-white) !important;
+}
+span.cm-css-builtin {
+  color: var(--code-blue) !important;
+}
+span.node-label-name {
+  color: var(--code-red) !important;
+}
+span.node-label-class {
+  color: var(--code-orange) !important;
+}
+span.node-label-id {
+  color: var(--code-blue) !important;
+}
+devtools-computed-style-property .webkit-css-property {
+  --dom-attribute-name-color: var(--code-white) !important;
+  color: var(--code-white) !important;
+}
+devtools-elements-breadcrumbs {
+  --node-text-label-color: var(--code-red) !important;
+  --dom-tag-name-color: var(--code-red) !important;
+  --node-text-class-color: var(--code-orange) !important;
+  --node-text-id-color: var(--code-blue) !important;
+  --node-text-multiple-descriptors-id: var(--code-blue) !important;
+  --color-background: var(--atom-footer-bg) !important;
+  --color-background-elevation-1: var(--atom-bg) !important;
+}
+:root {
+  --node-text-label-color: var(--code-red) !important;
+  --dom-tag-name-color: var(--code-red) !important;
+  --node-text-class-color: var(--code-orange) !important;
+  --node-text-id-color: var(--code-blue) !important;
+  --dom-tag-name-color: var(--code-red) !important;
+  --dom-attribute-color: var(--code-green) !important;
+  --dom-attribute-name-color: var(--code-orange) !important;
+  --html-doctype-color: var(--code-white) !important;
+}
+
+// Js
+.CodeMirror-readonly,
+.CodeMirror-code,
+.source-code {
+  --js-comment: var(--code-comment) !important;
+  --js-keyword: var(--code-purple) !important;
+  --js-def: var(--code-white) !important;
+  --js-operator: var(--code-aqua) !important;
+  --js-variable: var(--code-white) !important;
+  --js-string: var(--code-green) !important;
+  --js-atom: var(--code-orange) !important;
+  --js-number: var(--code-orange) !important;
+  --js-property: var(--code-red) !important;
+}
+
+// HTML
+
+.cm-xml-comment,
+.webkit-html-comment {
+  font-style: italic;
+}
+.webkit-html-tag {
+  color: var(--code-white) !important;
+}
+.webkit-html-attribute-value .devtools-link:hover,
+.webkit-html-attribute-value,
+.webkit-html-attribute-value .devtools-link,
+.webkit-html-attribute-value .devtools-link.devtools-link-prevent-click:hover {
+  color: var(--code-green) !important;
+  text-decoration-color: var(--code-green) !important;
+}
+span.webkit-html-text-node {
+  color: var(--code-white) !important;
+}
+span.cm-xml-bracket {
+  color: var(--code-white) !important;
+}

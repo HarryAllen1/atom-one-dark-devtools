@@ -1,0 +1,101 @@
+.spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg') !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg');
+  width: 20px !important;
+  height: 18px !important;
+  background-image: none !important;
+  margin-left: 1px !important;
+}
+.navigator-sm-folder-tree-item .icon,
+.navigator-fs-tree-item .icon,
+.navigator-fs-folder-tree-item .icon {
+  /* orange folder */
+  background-image: none !important;
+  background-color: #8ebf55 !important;
+}
+.navigator-nw-folder-tree-item .icon {
+  /* blue folder */
+  background-color: rgb(192, 149, 83) !important;
+  background-image: none !important;
+}
+
+.navigator-image-tree-item.navigator-file-tree-item
+  [is='ui-icon'].spritesheet-largeicons.icon-mask {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_image.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+.navigator-script-tree-item.navigator-file-tree-item
+  [is='ui-icon'].spritesheet-largeicons.icon-mask {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+
+span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px'] {
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  mask-position: 0 0 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-image: none !important;
+}
+.navigator-font-tree-item.navigator-file-tree-item [is='ui-icon'] {
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_font.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat !important;
+}
+.navigator-sm-stylesheet-tree-item [is='ui-icon'].icon-mask {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.navigator-document-tree-item.navigator-file-tree-item
+  [is='ui-icon'].icon-mask[style='--spritesheet-position:-112px 96px; width: 28px; height: 24px;'] {
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_html.svg') !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navigator-sm-stylesheet-tree-item .icon,
+.navigator-stylesheet-tree-item .icon {
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navigator-stylesheet-tree-item [is='ui-icon'].icon-mask {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.navigator-stylesheet-tree-item.force-white-icons .icon {
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+}

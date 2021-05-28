@@ -1,0 +1,7 @@
+@media not print {
+  .lh-vars.dark {
+    --report-background-color: var(--atom-bg) !important;
+    --color-gray: var(--atom-sources-bg) !important;
+    --report-text-color: var(--code-white-2) !important;
+  }
+}

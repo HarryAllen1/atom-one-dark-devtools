@@ -1,0 +1,12 @@
+.widget.vbox > .metrics .margin {
+  background-color: var(--code-orange) !important;
+}
+.widget.vbox > .metrics .margin > .border {
+  background-color: var(--code-yellow) !important;
+}
+.widget.vbox > .metrics .margin > .border > .padding {
+  background-color: var(--code-green) !important;
+}
+.widget.vbox > .metrics .margin > .border > .padding > .content {
+  background-color: var(--code-blue) !important;
+}
