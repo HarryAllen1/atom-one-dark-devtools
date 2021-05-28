@@ -23,3 +23,5 @@ Report bugs here: [GitHub Issues](https://github.com/MajesticString/atom-one-dar
 ### From source
 
 Head to [edge://extensions](edge://extensions) or [edge://extensions](edge://extensions)
+Go to the bottom left corner and enable 'Developer Mode'
+Drag and drop the 'extension' folder to any part of that tab.
