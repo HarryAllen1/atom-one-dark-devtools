@@ -1,0 +1,20 @@
+.styles-element-state-pane {
+  border-bottom: 1px solid var(--atom-dark-outline) !important;
+}
+.styles-element-state-pane,
+.styles-sidebar-pane-toolbar-container,
+.elements-disclosure
+  .elements-tree-outline:not(.hide-selection-when-blurred)
+  .selection {
+  background-color: var(--atom-sources-bg) !important;
+}
+div.styles-sidebar-toolbar-pane > div.vbox.flex-auto {
+  --neutral-layer-l3: var(--atom-sources-bg) !important;
+}
+.styles-section .simple-selector {
+  color: var(--code-red) !important;
+}
+.styles-section .simple-selector.selector-matches,
+.styles-section.keyframe-key {
+  color: var(--code-orange) !important;
+}

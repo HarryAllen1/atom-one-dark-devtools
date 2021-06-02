@@ -105,6 +105,9 @@ devtools-elements-breadcrumbs {
   --dom-attribute-color: var(--code-green) !important;
   --dom-attribute-name-color: var(--code-orange) !important;
   --html-doctype-color: var(--code-white) !important;
+  --css-string: var(--code-green) !important;
+  --js-comment: var(--code-comment) !important;
+  --xml-comment: var(--code-comment) !important;
 }
 
 // Js

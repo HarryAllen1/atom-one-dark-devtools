@@ -5,11 +5,12 @@
 @use 'syntax';
 @use 'scrollbar';
 @use 'font';
-@use 'icons';
+@use 'sources-icons';
 @use 'box-model';
 @use 'console';
 @use 'buttons';
 @use 'lighthouse';
+@use 'styles-inspector';
 
 // Fonts
 @import url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/dist/codicon.css');
@@ -189,9 +190,6 @@ input {
   color: var(--code-white) !important;
 }
 :root {
-  --css-string: var(--code-green) !important;
-  --js-comment: var(--code-comment) !important;
-  --xml-comment: var(--code-comment) !important;
   --neutral-layer-l4: var(--atom-bg) !important;
   --neutral-layer-13: var(--atom-file-expansion-bg) !important;
   --toolbar-bg-color: var(--atom-sources-bg) !important;
@@ -200,19 +198,6 @@ input {
 }
 /* backgrounds and stuff */
 
-.styles-element-state-pane {
-  border-bottom: 1px solid var(--atom-dark-outline) !important;
-}
-.styles-element-state-pane,
-.styles-sidebar-pane-toolbar-container,
-.elements-disclosure
-  .elements-tree-outline:not(.hide-selection-when-blurred)
-  .selection {
-  background-color: var(--atom-sources-bg) !important;
-}
-div.styles-sidebar-toolbar-pane > div.vbox.flex-auto {
-  --neutral-layer-l3: var(--atom-sources-bg) !important;
-}
 .elements-disclosure
   .elements-tree-outline:not(.hide-selection-when-blurred)
   .selection,
@@ -248,13 +233,7 @@ ol.tree-outline:not(.hide-selection-when-blurred) li.selected:focus .selection {
   background-color: var(--code-white) !important;
   opacity: 0.8 !important;
 }
-.styles-section .simple-selector {
-  color: var(--code-red) !important;
-}
-.styles-section .simple-selector.selector-matches,
-.styles-section.keyframe-key {
-  color: var(--code-orange) !important;
-}
+
 div.CodeMirror-linenumber {
   color: var(--line-number) !important;
 }
