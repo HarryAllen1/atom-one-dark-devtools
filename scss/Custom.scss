@@ -11,7 +11,8 @@
 @use 'buttons';
 @use 'lighthouse';
 @use 'styles-inspector';
-@use 'codemirror';
+@use 'editor';
+@use 'settings';
 
 // Fonts
 @import url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/dist/codicon.css');

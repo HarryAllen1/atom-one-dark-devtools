@@ -1,0 +1,14 @@
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  line-height: 19px !important;
+  font-size: 14px !important;
+}
+.elements-disclosure
+  .elements-tree-outline:not(.hide-selection-when-blurred)
+  .selection,
+.elements-disclosure
+  .elements-tree-outline:not(.hide-selection-when-blurred)
+  li.selected:focus
+  .selection {
+  background-color: rgba(153, 187, 255, 0.04) !important;
+}

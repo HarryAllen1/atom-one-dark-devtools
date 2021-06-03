@@ -12,9 +12,22 @@ div.styles-sidebar-toolbar-pane > div.vbox.flex-auto {
   --neutral-layer-l3: var(--atom-sources-bg) !important;
 }
 .styles-section .simple-selector {
-  color: var(--code-red) !important;
+  color: var(--code-white) !important;
 }
 .styles-section .simple-selector.selector-matches,
 .styles-section.keyframe-key {
-  color: var(--code-orange) !important;
+  color: var(--code-red) !important;
+}
+.implicit .webkit-css-property,
+.inherited .webkit-css-property {
+  color: rgb(140, 140, 140) !important;
+  --neutral-foreground-hint: rgb(140, 140, 140) !important;
+}
+div
+  > div:nth-child(3)
+  > div:nth-child(4)
+  > div
+  > div.style-properties.matched-styles.monospace,
+div.tree-outline-disclosure {
+  --neutral-foreground-hint: rgb(140, 140, 140) !important;
 }

@@ -10,3 +10,7 @@
 .console-message .source-code {
   line-height: 19px !important;
 }
+.-theme-with-dark-background {
+  --color-text-primary: #ccc !important;
+  --color-text-secondary: var(--code-white);
+}
