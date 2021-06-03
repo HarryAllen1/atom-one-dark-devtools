@@ -11,6 +11,7 @@
 @use 'buttons';
 @use 'lighthouse';
 @use 'styles-inspector';
+@use 'codemirror';
 
 // Fonts
 @import url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/dist/codicon.css');
@@ -149,12 +150,12 @@ div.navigator-tabbed-pane,
   color: var(--code-white) !important;
 }
 
-.tree-outline li::before {
-  background-color: var(--code-white-2) !important;
-  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
-  mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
-  content: normal !important;
-}
+// .tree-outline li::before {
+//   background-color: var(--code-white-2) !important;
+//   -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
+//   mask-image: url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/src/icons/chevron-right.svg') !important;
+//   content: normal !important;
+// }
 .Dom3d-main-view {
   background-color: var(--atom-bg) !important;
 }
