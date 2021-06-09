@@ -83,6 +83,9 @@ span.node-label-class {
 span.node-label-id {
   color: var(--code-blue) !important;
 }
+span.cm-js-string-2 {
+  color: var(--code-green) !important;
+}
 devtools-computed-style-property .webkit-css-property {
   --dom-attribute-name-color: var(--code-white) !important;
   color: var(--code-white) !important;

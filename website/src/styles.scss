@@ -1,4 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'variables' as *;
+@import "~bootstrap/scss/bootstrap";
+@import "~tailwindcss/tailwind";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-toolbar {
+  background-color: $gh-header-bg;
+}
+.mat-app-background {
+  background-color: $gh-main-bg;
+}
+.flex-spacer {
+  flex: 1 1 auto;
+}
+* {
+  color: #cdd9e5;
+}
+a {
+  color: #539bf5;
+  &:hover {
+    text-decoration: underline;
+    color: #539bf5;
+  }
+}

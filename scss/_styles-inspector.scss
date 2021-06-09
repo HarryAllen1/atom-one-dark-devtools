@@ -23,11 +23,3 @@ div.styles-sidebar-toolbar-pane > div.vbox.flex-auto {
   color: rgb(140, 140, 140) !important;
   --neutral-foreground-hint: rgb(140, 140, 140) !important;
 }
-div
-  > div:nth-child(3)
-  > div:nth-child(4)
-  > div
-  > div.style-properties.matched-styles.monospace,
-div.tree-outline-disclosure {
-  --neutral-foreground-hint: rgb(140, 140, 140) !important;
-}
