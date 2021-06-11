@@ -7,6 +7,19 @@
   background-image: none !important;
   margin-left: 1px !important;
 }
+li.navigator-folder-tree-item.expanded
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-sm-folder-tree-item.expanded
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder_opened.svg') !important;
+  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder_opened.svg');
+  width: 20px !important;
+  height: 18px !important;
+  background-image: none !important;
+  margin-left: 1px !important;
+  margin-right: 2px !important;
+}
 .navigator-sm-folder-tree-item .icon,
 .navigator-fs-tree-item .icon,
 .navigator-fs-folder-tree-item .icon {
@@ -33,6 +46,21 @@
   height: 18px !important;
   background-repeat: no-repeat;
 }
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
 .navigator-script-tree-item.navigator-file-tree-item
   [is='ui-icon'].spritesheet-largeicons.icon-mask {
   --spritesheet-position: 0 0 !important;
@@ -46,7 +74,175 @@
   height: 18px !important;
   background-repeat: no-repeat;
 }
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.ts']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_typescript.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.component.html']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_html.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
 
+li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.html']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_html.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.component.ts']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_ts.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-stylesheet-tree-item.navigator-file-tree-item[aria-label*='.less']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_less.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-stylesheet-tree-item.navigator-file-tree-item[aria-label*='.sass']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_sass.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-stylesheet-tree-item.navigator-file-tree-item[aria-label*='.scss']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_scss.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.component.scss']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_scss.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.module.ts']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_module_ts.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='routing.module.ts']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_routing_ts.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.js']
+  div.leading-icons.icons-container
+  span[is='ui-icon'],
+div
+  li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.mjs']
+  div.leading-icons.icons-container
+  span[is='ui-icon'] {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
 span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px'] {
   -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
   -webkit-mask-position: 0 0 !important;
@@ -98,4 +294,112 @@ span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px
 }
 .navigator-stylesheet-tree-item.force-white-icons .icon {
   background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item[aria-label*='node_modules']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='node_modules']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_node.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='node_modules']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='node_modules']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_node_opened.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item[aria-label*='src']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='src']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_src.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='src']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='src']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_src_opened.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item[aria-label*='app']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='app']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_app.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
+}
+div
+  li.navigator-sm-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='app']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder,
+li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='app']
+  div.leading-icons.icons-container
+  .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
+  --spritesheet-position: 0 0 !important;
+  -webkit-mask-image: none !important;
+  -webkit-mask-position: 0 0 !important;
+  mask-image: none !important;
+  mask-position: 0 0 !important;
+  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_app_opened.svg') !important;
+  background-color: #0000 !important;
+  width: 20px !important;
+  height: 18px !important;
+  background-repeat: no-repeat;
 }
