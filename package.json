@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "sass --watch scss/Custom.scss extension/Custom.min.css --style compressed",
-    "build": "sass scss/Custom.scss dist/Custom.min.css --style compressed"
+    "build": "sass scss/Custom.scss extension/Custom.min.css --style compressed"
   },
   "author": "Harry Allen",
   "license": "MIT",

@@ -98,6 +98,10 @@ devtools-elements-breadcrumbs {
   --node-text-multiple-descriptors-id: var(--code-blue) !important;
   --color-background: var(--atom-footer-bg) !important;
   --color-background-elevation-1: var(--atom-bg) !important;
+  --override-node-text-label-color: var(--code-red) !important;
+  --override-node-text-class-color: var(--code-orange) !important;
+  --override-node-text-id-color: var(--code-blue) !important;
+  --override-node-text-multiple-descriptors-id: var(--code-blue) !important;
 }
 :root {
   --node-text-label-color: var(--code-red) !important;
@@ -149,4 +153,27 @@ span.webkit-html-text-node {
 }
 span.cm-xml-bracket {
   color: var(--code-white) !important;
+}
+.webkit-html-tag-name,
+.node-label-name {
+  color: var(--code-red) !important;
+}
+.webkit-html-attribute-name {
+  color: var(--code-orange) !important;
+}
+.node-label-class {
+  color: var(--code-orange) !important;
+}
+.node-label-id.node-multiple-descriptors,
+.node-label-id {
+  color: var(--code-blue) !important;
+}
+.webkit-html-close-tag-name {
+  color: var(--code-red) !important;
+}
+devtools-node-text {
+  --override-node-text-label-color: var(--code-red) !important;
+  --override-node-text-class-color: var(--code-orange) !important;
+  --override-node-text-id-color: var(--code-blue) !important;
+  --override-node-text-multiple-descriptors-id: var(--code-blue) !important;
 }
