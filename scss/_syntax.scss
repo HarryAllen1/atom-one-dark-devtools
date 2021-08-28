@@ -177,3 +177,8 @@ devtools-node-text {
   --override-node-text-id-color: var(--code-blue) !important;
   --override-node-text-multiple-descriptors-id: var(--code-blue) !important;
 }
+.CodeMirror {
+  .cm-js-string {
+    color: var(--code-green) !important;
+  }
+}
