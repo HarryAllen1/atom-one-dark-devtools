@@ -8,7 +8,7 @@ The source SCSS is in the 'scss' folder. The minified css is in the 'extension' 
 
 Install this extension:
 
-- Link on Edge store:
+- Link on Edge store: https://microsoftedge.microsoft.com/addons/detail/atom-one-dark-devtools-th/bchcjmlpcenaieccjjfhkfaemokpchlk
 - Link on Chrome store:
 
 Enter DevTools and with F12 and go to settings by pressing "?" (Shift + /).\
