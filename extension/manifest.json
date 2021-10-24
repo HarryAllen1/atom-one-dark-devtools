@@ -1,5 +1,4 @@
 {
-  "$schema": "http://json-schema.org/schema",
   "name": "Atom One Dark DevTools Theme",
   "description": "A theme for Chrome and Edge DevTools taken from the Atom One Dark theme.",
   "icons": {
@@ -11,7 +10,7 @@
   "browser_action": {
     "default_icon": "icons/icon128.png"
   },
-  "version": "2.1.1",
+  "version": "2.2.0",
   "devtools_page": "devtools.html",
   "manifest_version": 2
 }

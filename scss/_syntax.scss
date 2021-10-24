@@ -86,6 +86,12 @@ span.node-label-id {
 span.cm-js-string-2 {
   color: var(--code-green) !important;
 }
+span.cm-js-variable-2 {
+  color: var(--code-white) !important;
+}
+span.cm-xml-tag {
+  color: var(--code-red) !important;
+}
 devtools-computed-style-property .webkit-css-property {
   --dom-attribute-name-color: var(--code-white) !important;
   color: var(--code-white) !important;
@@ -117,10 +123,34 @@ devtools-elements-breadcrumbs {
   --xml-comment: var(--code-comment) !important;
 }
 
+// Highlighting
+.CodeMirror .CodeMirror-line::selection,
+.CodeMirror .CodeMirror-line > span::selection,
+.CodeMirror .CodeMirror-line > span > span::selection,
+.CodeMirror-line::selection,
+.CodeMirror-line > span::selection,
+.CodeMirror-line > span > span::selection,
+.-theme-with-dark-background *::selection,
+:host-context(.-theme-with-dark-background) *::selection,
+::selection,
+.editing::selection,
+.webkit-html-attribute-name::selection,
+.webkit-html-attribute-value::selection,
+::selection,
+.editing::selection,
+.webkit-html-attribute-name::selection,
+.webkit-html-attribute-value::selection {
+  --override-selection-background-color: #2c313c !important;
+  --legacy-item-selection-bg-color: #2c313c !important;
+  --selection-bg-color: #2c313c !important;
+  background-color: #2c313c !important;
+}
+
 // Js
 .CodeMirror-readonly,
 .CodeMirror-code,
 .source-code {
+  --quoted-string-js-property: var(--code-red) !important;
   --js-comment: var(--code-comment) !important;
   --js-keyword: var(--code-purple) !important;
   --js-def: var(--code-white) !important;
@@ -181,4 +211,24 @@ devtools-node-text {
   .cm-js-string {
     color: var(--code-green) !important;
   }
+}
+
+// for chrome
+.cm-js-property {
+  color: var(--code-red) !important;
+}
+.cm-js-variable {
+  color: var(--code-white) !important;
+}
+.cm-js-operator {
+  color: var(--code-teal) !important;
+}
+.cm-js-def {
+  color: var(--code-white) !important;
+}
+.cm-js-number {
+  color: var(--code-orange) !important;
+}
+.cm-js-keyword {
+  color: var(--code-purple) !important;
 }

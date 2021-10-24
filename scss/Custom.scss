@@ -13,6 +13,7 @@
 @use 'styles-inspector';
 @use 'editor';
 @use 'settings';
+@use './elements-panel';
 
 // Fonts
 @import url('https://cdn.jsdelivr.net/gh/microsoft/vscode-codicons@0.0.17/dist/codicon.css');

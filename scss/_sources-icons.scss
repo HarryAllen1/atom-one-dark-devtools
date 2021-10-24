@@ -1,7 +1,7 @@
 .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
   --spritesheet-position: 0 0 !important;
-  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg') !important;
-  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder.svg');
+  -webkit-mask-image: url('https://raw.githubusercontent.com/MajesticString/material-icon-folder-replacement/main/folder.svg') !important;
+  mask-image: url('https://raw.githubusercontent.com/MajesticString/material-icon-folder-replacement/main/folder.svg');
   width: 20px !important;
   height: 18px !important;
   background-image: none !important;
@@ -12,8 +12,8 @@ li.navigator-folder-tree-item.expanded
 li.navigator-sm-folder-tree-item.expanded
   .spritesheet-largeicons.icon-mask.largeicon-navigator-folder {
   --spritesheet-position: 0 0 !important;
-  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder_opened.svg') !important;
-  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/default_folder_opened.svg');
+  -webkit-mask-image: url('https://raw.githubusercontent.com/MajesticString/material-icon-folder-replacement/main/folder-open.svg') !important;
+  mask-image: url('https://raw.githubusercontent.com/MajesticString/material-icon-folder-replacement/main/folder-open.svg');
   width: 20px !important;
   height: 18px !important;
   background-image: none !important;
@@ -40,7 +40,7 @@ li.navigator-sm-folder-tree-item.expanded
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_image.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/image.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -55,7 +55,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -68,7 +68,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -83,7 +83,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_typescript.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/typescript.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -98,7 +98,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_html.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -113,7 +113,7 @@ li.navigator-sm-script-tree-item.navigator-file-tree-item[aria-label*='.html']
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_html.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -128,7 +128,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_ts.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/angular-component.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -143,7 +143,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_less.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/less.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -158,7 +158,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_sass.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/sass.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -173,7 +173,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_scss.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/sass.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -188,7 +188,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_component_scss.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/sass.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -203,7 +203,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_module_ts.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/angular-module.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -218,7 +218,7 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_ng_routing_ts.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/angular.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -237,16 +237,16 @@ div
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_js.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
   background-repeat: no-repeat;
 }
 span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px'] {
-  -webkit-mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  -webkit-mask-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg') !important;
   -webkit-mask-position: 0 0 !important;
-  mask-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  mask-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg') !important;
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
@@ -257,7 +257,7 @@ span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_font.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/font.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -274,7 +274,7 @@ span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_html.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/html.svg') !important;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -286,14 +286,14 @@ span.spritesheet-largeicons.icon-mask[style~='--spritesheet-position:-112px 96px
   mask-position: 0 0 !important;
   width: 20px !important;
   height: 18px !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg') !important;
   background-color: rgba(0, 0, 0, 0);
 }
 .navigator-stylesheet-tree-item [is='ui-icon'].icon-mask {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 .navigator-stylesheet-tree-item.force-white-icons .icon {
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/file_type_css.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/css.svg') !important;
 }
 div
   li.navigator-sm-folder-tree-item.navigator-folder-tree-item[aria-label*='node_modules']
@@ -307,7 +307,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='node_modul
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_node.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-node.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -325,7 +325,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='n
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_node_opened.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-node-open.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -343,7 +343,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='src']
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_src.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-src.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -361,7 +361,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='s
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_src_opened.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-src-open.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -379,7 +379,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item[aria-label*='app']
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_app.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-app.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;
@@ -397,7 +397,7 @@ li.navigator-folder-tree-item.navigator-folder-tree-item.expanded[aria-label*='a
   -webkit-mask-position: 0 0 !important;
   mask-image: none !important;
   mask-position: 0 0 !important;
-  background-image: url('https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons@11.4.0/icons/folder_type_app_opened.svg') !important;
+  background-image: url('https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/folder-app-open.svg') !important;
   background-color: #0000 !important;
   width: 20px !important;
   height: 18px !important;

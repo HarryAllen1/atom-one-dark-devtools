@@ -1,0 +1,9 @@
+#panel-navigator-network,
+.overflow-auto,
+*.overflow-auto {
+  --color-background: var(--atom-sources-bg) !important;
+  background-color: var(--color-background) !important;
+}
+:root {
+  --color-background: var(--atom-sources-bg) !important;
+}
