@@ -1,3 +1,6 @@
 #elements-content {
   background-color: var(--atom-bg) !important;
 }
+div.elements-disclosure .elements-tree-outline.source-code div.selection.fill {
+  background-color: var(--atom-bg-selected) !important;
+}

@@ -4,16 +4,15 @@
   "description": "",
   "scripts": {
     "dev": "sass --watch scss/Custom.scss extension/Custom.min.css --style compressed",
-    "build": "sass scss/Custom.scss extension/Custom.min.css --style compressed"
+    "build": "sass scss/Custom.scss extension/Custom.min.css --style compressed",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "author": "Harry Allen",
   "license": "MIT",
-  "dependencies": {
-    "@types/component-emitter": "^1.2.10",
-    "@types/cookie": "^0.4.0",
-    "@types/cors": "^2.8.10",
-    "@types/node": "^15.6.1",
-    "sass": "^1.34.0"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.55.0",
+    "vitepress": "1.0.0-alpha.15"
+  }
 }

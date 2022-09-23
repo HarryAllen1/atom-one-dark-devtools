@@ -1,6 +1,10 @@
 .styles-element-state-pane {
   border-bottom: 1px solid var(--atom-dark-outline) !important;
 }
+.tree-outline-disclosure li {
+  display: flex;
+  flex-wrap: wrap !important;
+}
 .styles-element-state-pane,
 .styles-sidebar-pane-toolbar-container,
 .elements-disclosure
